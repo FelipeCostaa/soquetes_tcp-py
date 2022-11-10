@@ -1,4 +1,4 @@
-3 . Metodologia
+## 3 . Metodologia
 
 O seguinte representa a ordem seqüencial das etapas para este metodologia de teste:
 
@@ -6,11 +6,11 @@ O seguinte representa a ordem seqüencial das etapas para este metodologia de te
 2. Tempo de ida e volta da linha de base e largura de banda. Esta etapa estabelece a tempo de ida e volta (RTT) inerente e não congestionado e o gargalo Largura de banda (BB) do caminho de rede de ponta a ponta. Essas medidas são usados ​​para fornecer estimativas de TCP RWND e Send Socket Tamanhos de buffer que DEVEM ser usados ​​durante as etapas de teste subsequentes.
 3. Testes de taxa de transferência de conexão TCP. Com medições de linha de base de Tempo de ida e volta e largura de banda de gargalo, único e múltiplo Os testes de taxa de transferência de conexão TCP DEVEM ser conduzidos para a linha de base desempenho da rede.
 
-3.2 . Tempo de ida e volta (RTT) e largura de banda de gargalo (BB)
+### 3.2 . Tempo de ida e volta (RTT) e largura de banda de gargalo (BB)
 
 Antes que o teste de TCP com estado possa começar, é importante determinar o RTT de linha de base (ou seja, atraso inerente não congestionado) e BB do rede de ponta a ponta a ser testada. Essas medidas são usadas para calcular o BDP e fornecer estimativas do TCP RWND e Send Tamanhos de buffer de soquete que DEVEM ser usados ​​nas etapas de teste subsequentes.
 
-3.2.1 . Medindo RTT
+#### 3.2.1 . Medindo RTT
 
 Conforme definido anteriormente na Seção 1.2 , RTT é o tempo decorrido entre o clock in do primeiro bit de um segmento TCP enviado e o recebimento do último bit da confirmação TCP correspondente.
 
@@ -26,7 +26,7 @@ A lista a seguir não pretende ser exaustiva, embora resume algumas das formas m
 
 - Os pings ICMP também podem ser adequados para fornecer tempo de ida e volta estimativas, desde que o tamanho do pacote seja levado em consideração estimativas (ou seja, pings com tamanhos de pacotes diferentes podem ser requeridos). Algumas limitações com ping ICMP podem incluir ms resolução e se os elementos da rede estão ou não respondendo aos pings. Além disso, o ICMP é frequentemente limitado ou segregado em diferentes filas de buffer. O ICMP pode não funcionar se o QoS (Quality of Service) a reclassificação é feita em qualquer salto. ICMP não é tão confiáveis ​​e precisos como medições em banda.
 
-  3.2.2 . Medição BB
+#### 3.2.2 . Medição BB
 
 Antes que qualquer teste de taxa de transferência TCP possa ser realizado, a largura de banda testes de medição DEVEM ser executados com fluxos IP sem estado (ou seja, não Stateful TCP) para determinar o BB do NUT. Esses medições DEVEM ser realizadas em ambas as direções, especialmente em redes de acesso assimétricas (por exemplo, DSL de taxa de bits assimétrica (ADSL) Acesso). Estes testes DEVEM ser realizados em vários intervalos ao longo de um dia útil ou mesmo durante uma semana.
 
