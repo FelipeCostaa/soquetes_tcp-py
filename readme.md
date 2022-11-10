@@ -1,8 +1,10 @@
-# Trabalho Prático (entregas em 28/11 e 09/12, 30 pt.s)
+# Trabalho Prático de Redes
 
-Encontrem anexo o (RASCUNHO DO) enunciado do Trabalho Prático da disciplina, no valor de 30 pontos.
+---
 
-Grupos de 2 a 3 discentes (vide planilha para encontrar os colegas ainda sem grupo).
+## IFMG Campus Formiga
+
+---
 
 **==== INICIO ====**
 
