@@ -83,7 +83,7 @@ Para Ethernet de 100 Mbps, a taxa de transferência TCP máxima =
 
 A tabela a seguir ilustra o Tempo de Transferência TCP Ideal de um uma única conexão TCP quando seus tamanhos TCP RWND e Send Socket Buffer igual ou superior ao BDP.
 
-![img4](Screenshot_4.png)
+![img4](../img/Screenshot_4.png)
 
 Para um arquivo de 100 MB (100 X 8 = 800 Mbits), o Tempo de Transferência TCP Ideal
 é derivado da seguinte forma:

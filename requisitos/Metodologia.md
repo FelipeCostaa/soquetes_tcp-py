@@ -66,7 +66,7 @@ Observe que cálculos separados são NECESSÁRIOS em caminhos assimétricos. Um 
 
 A tabela a seguir fornece algumas velocidades de link de rede representativas, RTT, BDP e seus tamanhos mínimos de TCP RWND necessários associados.
 
-![img3](Screenshot_3.png)
+![img3](../img/Screenshot_3.png)
 
 Na tabela acima, as seguintes velocidades de link serial são usadas:
 
@@ -97,8 +97,8 @@ Quando o tamanho do TCP RWND excede o BDP (link T3 e TCP RWND de 64 KB em um cam
 
 O diagrama a seguir compara as taxas de transferência TCP alcançáveis ​​em um T3 com Send Socket Buffer e TCP RWND tamanhos de 16 KB versus 64 KB.
 
-![img1](Screenshot_2.png)
+![img1](../img/Screenshot_2.png)
 
 O diagrama a seguir mostra a taxa de transferência TCP alcançável em 25 ms T3 quando os tamanhos de buffer de soquete de envio e RWND TCP são aumentados.
 
-![img1](Screenshot_1.png)
+![img1](../img/Screenshot_1.png)
