@@ -10,7 +10,7 @@ while True:
     con, cliente = tcp.accept()     # Aceita uma conexão
     print('*** Conectado por', cliente)
     while True:
-        mensagem = con.recv(1024)   # Recebe dados do socket
+        mensagem = con.recv(1024).decode()   # Recebe dados do socket
         if not mensagem:
             break
         print(cliente, mensagem)
